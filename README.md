@@ -1,5 +1,5 @@
 # cisco-port-filter-for-inactive-ports
-Extracts port information for inactive ports. 
+Extracts port information for inactive ports. Currently locked for 26 weeks.
 
 This python script makes use of the following library's:
 
