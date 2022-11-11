@@ -95,6 +95,8 @@ def outp():
         print("Nothing here!")
     # Closing file
     f.close()
+    #Clear used file
+    open('output.txt', 'w').close()
 
 #Check if interactive mode or arguments are going to be used
 if host == None or username == None or password == None:
