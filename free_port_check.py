@@ -58,7 +58,7 @@ globals().update(vars(args))
 def outp():
     last_line = ""
     output = ""
-    output = "Running on switch: " + host
+    output = "Running on switch: " + ser
     output += "\n"
     print("Show output:")
     for line in ssh_stdout:
