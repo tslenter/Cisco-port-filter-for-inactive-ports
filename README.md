@@ -1,9 +1,11 @@
 # Cisco filter for inactive ports
-Extracts port information for inactive ports. Currently locked for 26 weeks.
+Extracts port information for inactive ports. Currently locked for 26 weeks. The script is tested for 4500 series switches, it probably run on other series as well.
 
 This python script makes use of the following library's:
 
+```
 paramiko, time, os, argparse, datetime
+```
 
 Run the script as following: 
 
