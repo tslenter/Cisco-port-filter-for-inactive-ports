@@ -1,5 +1,5 @@
 # Cisco filter for inactive ports
-Extracts port information for inactive ports. Currently check for 26 weeks or older. The script is tested for 4500 series switches, it probably run on other series as well.
+Extracts port information for inactive ports. Currently checks for 26 weeks or older. The script is tested for 4500 series switches, it probably run on other series as well.
 
 This python script makes use of the following library's:
 
